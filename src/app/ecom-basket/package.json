@@ -1,0 +1,19 @@
+{
+  "name": "abm-ecom-basket",
+  "version": "0.0.10",
+  "description": "A simple E-COM basket component",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnandMuley/Basket.git"
+  },
+  "author": "Anand Muley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnandMuley/Basket/issues"
+  },
+  "homepage": "https://github.com/AnandMuley/Basket#readme"
+}
