@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { EcomBasketComponent } from './ecom-basket/ecom-basket.component';
+import {EcomProductComponent} from './ecom-product/ecom-product.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    EcomBasketComponent
+    EcomBasketComponent,
+    EcomProductComponent
   ],
   imports: [
     BrowserModule,
