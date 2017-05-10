@@ -1,14 +1,28 @@
 {
   "name": "abm-ecom-product",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A simple E-COM product component",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch":"tsc -p src -w",
+    "build":"rm -rf lib && tsc -p src"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AnandMuley/Basket.git"
+  },
+  "devDependencies":{
+    "typescript": "~2.0.3"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",
+    "@angular/http": "2.0.0-rc.1",
+    "@angular/platform-browser": "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.1",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js":"^0.6.12"
   },
   "author": "Anand Muley",
   "license": "ISC",
